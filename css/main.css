@@ -706,12 +706,12 @@ body {
         width: unset
     }
 }
-
+/* 
 .section .news-home .news-item.person-item .news-des {
     height: auto;
     text-align: center;
     padding: 40px 20px 0px 20px
-}
+} */
 
 @media(max-width: 760px) {
     .section .news-home .news-item.person-item .news-des {
@@ -808,11 +808,6 @@ body {
     .section .news-home .news-item img {
         height:90px
     }
-}
-
-.section .news-home .news-item p {
-    font-size: 14px;
-    line-height: 20px
 }
 
 .section--4 {

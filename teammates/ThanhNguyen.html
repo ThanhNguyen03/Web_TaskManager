@@ -8,9 +8,13 @@
     <title>Nguyen Tan Thanh</title>
     <meta name="description" content="Thiet ke giao dienj cho Do An nay."/>
     <meta name="keywords" content="" />
- 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="/Final_PJ/css/main.css">
+    <link rel="icon" href="/Final_PJ/icon/logo.png" type="">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/Final_PJ/bootstrap-5.3.2/css/bootstrap-grid.css">
 </head>
 
 <body>
@@ -39,7 +43,7 @@
                             </ul>
                         </div>
                     </ul>
-                    <div class="flex outer-news">
+                    <div class=" outer-news">
                         <div class="person-content">
                             <article class="news-article fullwidth">
                                 <img class="avatar lazyloader" src="/Final_PJ/image/Ảnh đại diện cá nhân.jpg" alt="" style=" width: 200px;">
@@ -48,7 +52,7 @@
                             </article>
                             <article class="news-article fullwidth">
                                 <div class="post-content">
-                                    <div class="person-description flex  align-item-center justify-content-space-between ">
+                                    <div class="person-description align-item-center justify-content-space-between ">
                                         <div class="post-content wrap">
                                             <p style="text-align: justify;">Thiet ke giao dien cho Do An nay.</p>
                                         </div>
@@ -57,7 +61,7 @@
                             </article>
                             <article class="news-article fullwidth">
                                 <div class="post-content">
-                                    <div class="person-description flex  align-item-center  ">
+                                    <div class="person-description align-item-center  ">
                                         <a href="https://www.facebook.com/thanhfnguyen.03">
                                             <img class="sgv" src="/Final_PJ/icon/facebook.png" style="width: 50px; margin-left: 5px;"></img>
                                         </a>
@@ -133,11 +137,11 @@
                     <div class="nav-top setPosTop ">
                         <div class="container-top">
                             <a class="mobile btn-hambuger">
-                                <i class="icon icon-hambuger"></i>
+                                <img class="icon icon-hambuger" src="/Final_PJ/icon/menu.png" style="width: 25px;" title="a"></img>
                                 <span class="hidden">hambuger</span>
                             </a>
                             <a class="logo logovng" href="/Final_PJ/present.html">
-                                <img class="svg" src="/Final_PJ/icon/logo.png"></img>
+                                <img class="svg small" src="/Final_PJ/icon/logo.png" style="margin-left: 20px;"></span>
                             </a>
                             <ul class="list-nav vi" id="list-nav">
                                 <li class="mobile close-nav">
@@ -145,6 +149,9 @@
                                 </li>
                                 <li>
                                     <a target="_self" rel="" href="/Final_PJ/present.html" class="" data-target="" title="Về VNG">Về chung toi</a>
+                                </li>
+                                <li>
+                                    <a target="_self" rel="" href="/Final_PJ/teammates/ThanhNguyen.html" class="" data-target="" title="San Pham">San Pham</a>
                                 </li>
                             </ul>
                         </div>
@@ -160,10 +167,10 @@
             </section>
         </div>
     </div>    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/Final_PJ/JS/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
+    <script>
+      AOS.init();
+    </script>  
 </body>
 </html>

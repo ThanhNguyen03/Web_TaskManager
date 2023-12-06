@@ -52,6 +52,20 @@ for (var i = 0; i < toggleButtons.length; i++) {
         }
     });
 }
+var isMenuOpen = false;
+var menuBtn = document.querySelector(".icon-hambuger");
+var menu = document.querySelector(".list-nav");
+menuBtn.addEventListener("click",function(event){
+    event.preventDefault();
+    if (!isMenuOpen){
+        menu.classList.add("active");
+        isMenuOpen = true;
+    }
+    else if(isMenuOpen){
+        menu.classList.remove("active");
+        isMenuOpen = false;
+    }
+});
 document.addEventListener("DOMContentLoaded", function() {
     // Nut tim kiem
     var popupSearch = document.querySelector("#popupSearch");
