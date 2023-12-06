@@ -33,22 +33,13 @@ for (var i = 0; i < toggleButtons.length; i++) {
         var milestoneItem = this.closest('.milestone-item');
         milestoneItem.classList.toggle('active');
         var contentWrapper = milestoneItem.querySelector('.content');
-        if (window.innerWidth <= 760) {
-            if (contentWrapper.style.maxHeight) {
-                contentWrapper.style.maxHeight = '';
-                this.textContent = 'Xem thêm';
-            } else {
-                contentWrapper.style.maxHeight = contentWrapper.scrollHeight + 'px';
-                this.textContent = 'Ẩn đi';
-            }
+
+        if (milestoneItem.classList.contains('active')) {
+            contentWrapper.style.maxHeight = contentWrapper.scrollHeight + 'px';
+            this.textContent = 'Ẩn đi';
         } else {
-            if (milestoneItem.classList.contains('active')) {
-                contentWrapper.style.maxHeight = contentWrapper.scrollHeight + 'px';
-                this.textContent = 'Ẩn đi';
-            } else {
-                contentWrapper.style.maxHeight = '';
-                this.textContent = 'Xem thêm';
-            }
+            contentWrapper.style.maxHeight = '';
+            this.textContent = 'Xem thêm';
         }
     });
 }
