@@ -369,7 +369,7 @@ body {
     }
 
     .section--1 .header-swiper .swiper-slide .header-info.transparent .top-content {
-        background: #eb5a26;
+        background: #add8e6;
         padding: 25px 16px
     }
 
@@ -477,7 +477,7 @@ body {
 }
 
 .section--3.milestone .wrapper::after {
-    background: #eb5a26;
+    background: #71bbd4;
     content: "";
     display: block;
     position: absolute;
@@ -517,7 +517,7 @@ body {
         width: 100%
     }
 
-    .section--3.milestone .milestone-item .color-orange {
+    .section--3.milestone .milestone-item .color-light-blue {
         position: absolute;
         top: 25px;
         left: 190px
@@ -784,7 +784,7 @@ body {
 }
 
 .section .news-home .news-item:hover::after {
-    background: #de5a26;
+    background: #add8e6;
     box-shadow: 2px 2px 5px rgba(0,0,0,.04)
 }
 
@@ -869,9 +869,9 @@ body {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    color: #eb5a26;
+    color: #44a6c6;
     background: #fff;
-    border: 1px solid #eb5a26;
+    border: 2px solid #add8e6;
     border-radius: 25px
 }
 
@@ -898,8 +898,8 @@ body {
 }
 
 .section .list-tab .btn-choose-tab.active,.section .list-tab .btn-choose-tab:hover {
-    color: #fff;
-    background: #ed5a26;
+    color: #000;
+    background: #add8e6;
     border-radius: 25px 25px 0 0;
     height: 110px
 }
@@ -931,7 +931,7 @@ body {
 
 .section .tab-content .frame-content {
     padding: 55px 40px 55px 58px;
-    border: 1px solid #eb5a26;
+    border: 2px solid #add8e6;
     border-radius: 0 0 25px 25px
 }
 
@@ -1103,7 +1103,7 @@ body {
 .section--footer a.title,.section--footer p.title {
     font-size: 18px;
     line-height: 22px;
-    color: #eb5a26;
+    color: #3590ae;
     margin-bottom: 10px;
     display: block
 }
@@ -1135,7 +1135,7 @@ h4 {
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #eb5a26
+    color: #3590ae
 }
 
 @media(max-width: 760px) {
@@ -1272,8 +1272,8 @@ p {
     color: #7e7e7e
 }
 
-.color-orange {
-    color: #eb5a26
+.color-light-blue {
+    color: #71bbd4
 }
 
 .flex {
@@ -1539,7 +1539,7 @@ p {
         font-weight:600;
         font-size: 30px;
         line-height: 50px;
-        color: #ed5a26
+        color: #add8e6
     }
 }
 
@@ -1552,7 +1552,7 @@ p {
     right: 0;
     margin: auto;
     bottom: -15px;
-    background-color: #ff6a1f;
+    background-color: rgb(113, 187, 212);
     border-radius: 50%
 }
 
@@ -1589,7 +1589,6 @@ p {
 }
 
 .search-form.black input[type=submit] {
-    background-image: url(images/_sprites-layout.png);
     background-position: -280px 0px;
     width: 33px;
     height: 33px
@@ -1626,7 +1625,6 @@ p {
 }
 
 .search-form input[type=submit] {
-    background-image: url(images/_sprites-layout.png);
     background-position: -280px -33px;
     width: 33px;
     height: 33px;
@@ -1742,7 +1740,6 @@ p {
 }
 
 .search-box input[type=submit] {
-    background-image: url(images/_sprites-layout.png);
     background-position: -184px -151px;
     width: 19px;
     height: 18px;
@@ -1894,7 +1891,7 @@ p {
 .section .outer-news .person-content .person-name {
     font-size: 46px;
     line-height: 55px;
-    color: #eb5a26
+    color: #add8e6
 }
 
 @media(max-width: 760px) {
@@ -1908,7 +1905,7 @@ p {
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
-    color: #eb5a26
+    color: #add8e6
 }
 
 @media(max-width: 1050px) {
@@ -2019,5 +2016,12 @@ p {
     position: absolute;
     left: -6px;
     top: 0
+}
+h3{
+    font-weight: 600px;
+    font-size: 28px;
+    line-height: 43px;
+    color: #4d4d4d;
+    max-width: 720px;
 }
 /*# sourceMappingURL=main.css.map*/
