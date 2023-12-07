@@ -784,7 +784,7 @@ body {
 }
 
 .section .news-home .news-item:hover::after {
-    background: #add8e6;
+    background: #3590ad;
     box-shadow: 2px 2px 5px rgba(0,0,0,.04)
 }
 
