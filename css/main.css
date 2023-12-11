@@ -1493,7 +1493,7 @@ p {
     display: flex;
     width: 835px;
     margin-left: 105px;
-    justify-content: space-between
+    justify-content: space-evenly;
 }
 
 @media(max-width: 1050px) {
@@ -1514,7 +1514,7 @@ p {
 
     .nav-top .list-nav.active {
         height: 100vh;
-        background: #f6f6f6;
+        background: #D3D3D3;
         padding: 44px 35px 44px 62px
     }
 
@@ -1538,7 +1538,7 @@ p {
         font-weight:600;
         font-size: 30px;
         line-height: 50px;
-        color: #add8e6
+        color: #44a6c6
     }
 }
 
@@ -1551,7 +1551,7 @@ p {
     right: 0;
     margin: auto;
     bottom: -15px;
-    background-color: rgb(113, 187, 212);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%
 }
 
